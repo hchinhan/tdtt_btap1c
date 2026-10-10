@@ -2,6 +2,7 @@
 input_str = input("Enter a list of numbers separated by space: ")
 # Tách chuỗi thành các chuỗi con và chuyển đổi chúng thành số nguyên
 numbers = [int(num) for num in input_str.split()]
+# Sap chinh code isPrime 
 def isPrime(n): 
     if n <= 1: 
         return False 
