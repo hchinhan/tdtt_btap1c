@@ -33,3 +33,5 @@ if numbers:
     else:
         print(f"{num_to_check} is not a prime number.")
     print("Total prime numbers in the list:", countPrimes(numbers))
+def sortArray(numbers):
+    return sorted(numbers)
